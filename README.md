@@ -1,1 +1,3 @@
 BartsSchlosshof
+
+Small Business Website
