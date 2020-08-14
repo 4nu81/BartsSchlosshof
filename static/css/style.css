@@ -7,15 +7,7 @@
     --footer-text-color: #fff;
     --barths-red: #E53235;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-site {
-    background: var(--site-color);
-    width: 98%;
-    display: block;
-    border: 1px solid black;
-    margin: 1em auto 1em auto;
-    padding: 5px;
+    word-wrap: break-word;
 }
 
 header {
