@@ -55,12 +55,35 @@ service div {
     display: flow-root;
     text-align: center;
     border-radius: 0.2em;
-    border: 1px solid ;
+    border: 1px solid var(--dark-accent);
     padding: 0.5em;
-    background: var(--barths-red);
+    background-color: var(--barths-red);
     color: var(--footer-text-color);
     font-weight: bold;
+    background-size: auto 70%;
+    background-repeat: no-repeat;
+    background-position: center 90%;
 }
 h1, p {
     color: var(--dark-accent);
+}
+#schluesseldienst {
+    background-image: url('/static/img/schluesseldienst.jpg');
+    height: 100px;
+}
+#schliessanlagen {
+    background-image: url('/static/img/schliessanlagen.jpg');
+    height: 100px;
+}
+#tresor {
+    background-image: url('/static/img/tresor.jpg');
+    height: 100px;
+}
+#gravur {
+    background-image: url('/static/img/gravur.jpg');
+    height: 100px;
+}
+#pokal {
+    background-image: url('/static/img/pokal.png');
+    height: 100px;
 }
