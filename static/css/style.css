@@ -64,26 +64,12 @@ service div {
     background-repeat: no-repeat;
     background-position: center 90%;
 }
+service div.img {
+    height: 100px;
+}
+service div img {
+    height: 70%;
+}
 h1, p {
     color: var(--dark-accent);
-}
-#schluesseldienst {
-    background-image: url('/static/img/schluesseldienst.jpg');
-    height: 100px;
-}
-#schliessanlagen {
-    background-image: url('/static/img/schliessanlagen.jpg');
-    height: 100px;
-}
-#tresor {
-    background-image: url('/static/img/tresor.jpg');
-    height: 100px;
-}
-#gravur {
-    background-image: url('/static/img/gravur.jpg');
-    height: 100px;
-}
-#pokal {
-    background-image: url('/static/img/pokal.png');
-    height: 100px;
 }
