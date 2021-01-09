@@ -8,11 +8,11 @@
     --barths-red: #E53235;
     font-family: Georgia, 'Times New Roman', Times, serif;
     word-wrap: break-word;
-    font-size: 25px;
 }
 
+/*
 header {
-    /*background: var(--header-color);*/
+    background: var(--header-color);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -75,29 +75,8 @@ service div img {
 h1, p {
     color: var(--dark-accent);
 }
-content#text {
-    background-image: url('/static/img/bg.JPG');
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-}
 content#text p {
     color: var(--footer-text-color);
     text-shadow: 0 0 5px black;
 }
-content#leistungen::after,
-header::after {
-    opacity: 0.3;
-    content: "";
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-    background-image: url('/static/img/bg.JPG');
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    filter: opacity(30%);
-}
+*/

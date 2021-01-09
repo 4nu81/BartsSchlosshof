@@ -1,0 +1,17 @@
+section#text::after, .bg::after, .tile.is-ancestor::after {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+    background-image: url('/static/img/bg.JPG');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: opacity(10%);
+}
+.box {
+    width: 100%;
+}
